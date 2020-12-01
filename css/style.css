@@ -1,0 +1,141 @@
+    body {
+        text-align: center;
+        font-family: "montserrat";
+    }
+    
+    #title {
+        background-color: #61b15a;
+        text-align: left;
+    }
+    
+    .container-fluid {
+        padding: 5% 12%;
+    }
+    /* heading  */
+    
+    .big-heading {
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        color: white;
+    }
+    
+    .section-heading {
+        font-family: "Montserrat";
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .cus-title {
+        font-family: "Montserrat";
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "montserrat";
+    }
+    /* color-section  */
+    
+    .color-section {
+        background-color: #adce74;
+    }
+    
+    .white-section {
+        background-color: white;
+    }
+    /* navbar  */
+    
+    .navbar-brand {
+        font-family: "Montserrat";
+        font-size: 2.0rem;
+        font-weight: 400;
+    }
+    
+    .navbar {
+        padding-left: 0px;
+    }
+    
+    li {
+        padding: 0px 10px;
+    }
+    
+    .model-image {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+    }
+    
+    .btn-down {
+        margin: 10px;
+        margin-right: 15px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    
+    p {
+        color: grey
+    }
+    /* our-services section  */
+    
+    #services {
+        position: relative;
+    }
+    
+    .service-item {
+        padding: 3% 2%;
+    }
+    /* customer-review  */
+    
+    .cus-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    /* products items  */
+    
+    .pricing-column {
+        padding: 10px 30px;
+    }
+    /* contact-us  */
+    
+    #contact-us {
+        padding: 3% 30%;
+    }
+    
+    .contact-form {
+        margin-top: 20px;
+        text-align: left;
+    }
+    /* follow me section  */
+    
+    .follow-icon {
+        padding: 0px 20px;
+    }
+    
+    .follow-logo {
+        margin-bottom: 10px;
+    }
+    
+    @media(max-width: 1028px) {
+        .model-image {
+            position: static;
+            width: 400px;
+            height: 400px;
+        }
+        #title {
+            text-align: center;
+        }
+    }
